@@ -115,6 +115,12 @@ The intended users of the Red Rover Code Puzzle application are likely to includ
 **FR-LP-001:** The system shall provide a well formatted landing page that introduces the coding exercise.
 - Output: A landing page with exercise details and instructions using markdown formatting.
 
+**FR-LP-002:** The system shall show the provided problem statement on the landing page.
+- Output: The problem statement displayed clearly on the landing page, using markdown formatting.
+
+**FR-LP-003:** The system shall show the created SRS document to clearly demonstrate the intent of the solution.
+- Output: The SRS document displayed clearly on the landing page, using markdown formatting.
+
 #### 3.1.2 Solution Page
 
 **FR-SP-001:** The system shall provide a solution page that displays the solution to the coding exercise.
@@ -125,7 +131,6 @@ The intended users of the Red Rover Code Puzzle application are likely to includ
 - Input must begin with "(" and end with ")".
 - Parentheses must be balanced for all nested structures.
 - Fields at the same nesting level must be separated by commas.
-- 
 
 
 ### 3.2 Non-Functional Requirements
