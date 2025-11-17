@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ProblemStatement } from "./problem-statement";
 import { TechnicalAnalysis } from "./technical-analysis";
 import { Solution } from "./solution";
+import { GithubIcon } from "lucide-react";
 
 export const HomePageTabs = () => {
   return (
@@ -21,14 +22,28 @@ export const HomePageTabs = () => {
         defaultValue="problem-statement"
         className="w-full max-w-7xl mx-auto mt-8"
       >
-        <TabsList className="justify-center">
-          <TabsTrigger value="problem-statement">Problem Statement</TabsTrigger>
-          <TabsTrigger value="technical-analysis">
-            Technical Analysis
-          </TabsTrigger>
-          <TabsTrigger value="solution">Solution</TabsTrigger>
-        </TabsList>
-
+        <div className="flex items-center justify-between">
+          <TabsList className="justify-center">
+            <TabsTrigger value="problem-statement">
+              Problem Statement
+            </TabsTrigger>
+            <TabsTrigger value="technical-analysis">
+              Technical Analysis
+            </TabsTrigger>
+            <TabsTrigger value="solution">Solution</TabsTrigger>
+          </TabsList>
+          <>
+            <a
+              href="https://github.com/jvunk/red-rover-code-puzzle"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-600/80 hover:text-indigo-600 transition-colors hover:underline flex items-center gap-1"
+            >
+              <GithubIcon className="text-base" />
+              View GitHub Repository
+            </a>
+          </>
+        </div>
         <TabsContent value="problem-statement">
           <ProblemStatement />
         </TabsContent>

@@ -77,6 +77,7 @@ function splitOnTopLevelCommas(content: string): string[] {
     if (char === "," && parenDepth === 0) {
       // Save this part and start a new one
       const trimmedPart = currentPart.trim();
+
       if (trimmedPart.length > 0) {
         parts.push(trimmedPart);
       }
@@ -109,6 +110,7 @@ function parseNestedFields(input: string): ParsedField[] {
 
   // Process each field string
   const fields: ParsedField[] = [];
+
   for (const fieldString of fieldStrings) {
     fields.push(parseField(fieldString));
   }
