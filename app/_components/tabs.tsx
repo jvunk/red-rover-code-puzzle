@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { motion } from "framer-motion";
 import { ProblemStatement } from "./problem-statement";
 import { TechnicalAnalysis } from "./technical-analysis";
+import { Solution } from "./solution";
 
 export const HomePageTabs = () => {
   return (
@@ -27,14 +28,17 @@ export const HomePageTabs = () => {
           </TabsTrigger>
           <TabsTrigger value="solution">Solution</TabsTrigger>
         </TabsList>
+
         <TabsContent value="problem-statement">
           <ProblemStatement />
         </TabsContent>
+
         <TabsContent value="technical-analysis">
           <TechnicalAnalysis />
         </TabsContent>
+
         <TabsContent value="solution">
-          <div> SOLUTION </div>
+          <Solution />
         </TabsContent>
       </Tabs>
     </motion.div>

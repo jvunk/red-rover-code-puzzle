@@ -1,6 +1,6 @@
-# Software Requirements Specification (SRS)
+## Software Requirements Specification (SRS)
 
-## Project Name: Red Rover Code Puzzle
+### Project Name: Red Rover Code Puzzle
 
 **Version:** 1.0  
 **Date:** 2025-03-15  
@@ -44,10 +44,9 @@ This Software Requirements Specification (SRS) document outlines the requirement
 
 The scope of the Red Rover Code Puzzle application includes the following objectives and goals:
 
-- Provide a user-friendly interface for inputting nested field strings.
-- Implement a robust parser to accurately interpret the nested field structure.
-- Generate two distinct output formats: a flattened key-value pair representation and a hierarchical tree structure.
-- Ensure the application is performant and can handle large input sizes efficiently.
+- Provide a user-friendly interface for inputting strings
+- Generate distinct output formats
+- Ensure the application is performant
 - Include comprehensive error handling and user feedback mechanisms.
 
 ### 1.3 References
@@ -125,7 +124,11 @@ The intended users of the Red Rover Code Puzzle application are likely to includ
 **FR-SP-001:** The system shall provide a solution page that displays the solution to the coding exercise.
 - Output: A solution page with the implemented code and results, showing all edge cases and solutions.
 
-**FR-SP-002:** There shall be a card to show the input fails each of the following validation rules:
+**FR-SP-002:** The system shall allow the user to display the two required output formats for a valid input string:
+- A non-sorted list of values.
+- An alphabetically sorted list of values.
+
+**FR-SP-003:** There shall be a card to show the input fails each of the following validation rules:
 - Input must be a non-empty string.
 - Input must begin with "(" and end with ")".
 - Parentheses must be balanced for all nested structures.
