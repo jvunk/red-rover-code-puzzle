@@ -13,7 +13,7 @@ export const ProblemStatement = () => {
   }, []);
 
   return (
-    <div className="mt-8 rounded-xl bg-white/30 p-6 ring-1 ring-gray-900/5 backdrop-blur-sm dark:bg-white/5 dark:inset-ring dark:inset-ring-white/5 prose prose-slate dark:prose-invert w-full max-w-7xl">
+    <div className="mt-6 rounded-xl bg-white/30 p-6 ring-1 ring-gray-900/5 backdrop-blur-sm dark:bg-white/5 dark:inset-ring dark:inset-ring-white/5 prose prose-slate dark:prose-invert w-full max-w-7xl">
       <ReactMarkdown>{markdown}</ReactMarkdown>
     </div>
   );
