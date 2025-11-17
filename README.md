@@ -22,5 +22,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Documentation
 
-For detailed software requirements and specifications, see the [Software Requirements Specification (SRS)](docs/system-wide-srs.md).
+For detailed software requirements and specifications, see the [Software Requirements Specification (SRS)](public/docs/system-wide-srs.md).
 
