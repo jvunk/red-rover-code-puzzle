@@ -29,8 +29,7 @@
      - 3.2.1 [Performance Requirements](#321-performance-requirements)
      - 3.2.2 [Security Requirements](#322-security-requirements)
      - 3.2.3 [Usability Requirements](#323-usability-requirements)
-     - 3.2.4 [Scalability Requirements](#324-scalability-requirements)
-   - 3.3 [Interface Requirements](#33-interface-requirements)
+     - 3.2.4 [Scalability Requirements](#324-scalability-requirements)   
 
 ---
 ## 1. Introduction
@@ -153,10 +152,3 @@ The intended users of the Red Rover Code Puzzle application are likely to includ
 **NFR-004:** The system shall be designed to handle increasing amounts of input data without significant performance degradation.
 
 ---
-
-## Revision History
-
-| Version | Date   | Author      | Description of Changes |
-|---------|--------|-------------|------------------------|
-| 1.0     | 11/15  | Jon Vunk    | Initial draft          |
-|         |        |             |                        |
